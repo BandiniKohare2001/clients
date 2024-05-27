@@ -1,0 +1,50 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.bg-light {
+    background-color: #f9f9f9;
+  }
+
+  
+  .text-highlight {
+    position: relative;
+  }
+  
+  .text-highlight .bg-primary {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    z-index: -1;
+  }
+  
+  .alt-font {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .ls-1 {
+    letter-spacing: -0.1rem;
+  }
+  
+  .fw-bold {
+    font-weight: 700;
+  }
+  
+  .opacity-3 {
+    opacity: 0.3;
+  }
+  
+  .rounded-pill {
+    border-radius: 50px;
+  }
+  .btn-dark-gray {
+    background-color: #333;
+  }
+  
+  .btn-dark-gray:hover {
+    background-color: orange;
+  }
+  

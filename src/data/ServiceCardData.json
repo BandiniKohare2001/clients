@@ -1,0 +1,30 @@
+{
+    "heading":"Services",
+    "Scards":[
+        {
+            "title":"Graphics Designing",
+            "img" : "https://img.freepik.com/free-photo/male-game-developer-typing-keyboard-while-developing-new-level-game_482257-25303.jpg?t=st=1713245194~exp=1713248794~hmac=394b61629f8feb0d84ea0a2d36e1d21c732b3f08b3419de7808609a1e02f703d&w=996",
+            "description": "Creating visually stunning graphics and illustrations that elevate your brand identity"   
+        },
+        {
+            "title":"Digital Marketing",
+            "img": "https://img.freepik.com/premium-photo/marketing-digital-technology-business-concept-uds_31965-329219.jpg?w=996",
+            "description": "Driving brand growth and engagement through tailored digital marketing strategies and campaigns."
+
+        },
+        {
+            "title":"App Development",
+            "img": "https://img.freepik.com/free-photo/representations-user-experience-interface-design_23-2150104473.jpg?t=st=1713245002~exp=1713248602~hmac=b9eb15dea0f577a3fa9e1af8d420969214cf6cf592541249c9ce1503b0b03a03&w=826",
+            "description": "Designing and developing innovative mobile applications for iOS and Android platforms."  
+        },
+        {
+            "title":"Web Development",
+            "img": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901790.jpg?t=st=1713244722~exp=1713248322~hmac=22a8342268b5297db210eed7f48f3dc77ecb9f4ad61b3e2519638c74914b7ab8&w=826",
+            "description": "Crafting responsive and dynamic websites tailored to your needs, leveraging the latest web technologies. "  
+            
+        }
+       
+
+                                       
+    ]
+}

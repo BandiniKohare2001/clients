@@ -1,0 +1,114 @@
+/* Add these styles to your Tailwind CSS configuration if needed */
+
+.bg-cover {
+    background-size: cover;
+    /* background-color: rgb(231, 215, 252); */
+   
+  }
+  
+  .bg-center {
+    background-position: center;
+  }
+  
+  .h-150 {
+    height: 450px; /* Adjust the height as per your requirement */
+  }
+  
+  .text-dark-gray {
+    color: #333; /* Adjust the color as per your requirement */
+  }
+  
+  .bg-base-color {
+    background-color: #1a202c; /* Adjust the base color as per your requirement */
+  }
+  
+  .btn-dark-gray {
+    background-color: #333;
+  }
+  
+  .btn-dark-gray:hover {
+    background-color: orange;
+  }
+  
+  .text-highlight .bg-base-color {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    opacity: 0.3;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  .w{
+    width: 400px;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+
+
+
+  .fs-15 {
+    font-size: 15px;
+  }
+  
+  .text-base-color {
+    
+  }
+  
+  .fw-600 {
+    font-weight: 600;
+  }
+  
+  .ls-1px {
+    letter-spacing: 1px;
+  }
+  
+  .mb-15px {
+    margin-bottom: 15px;
+  }
+  
+  .d-block {
+    display: block;
+  }
+  
+  .fw-700 {
+    font-weight: 700;
+  }
+  
+  .text-dark-gray {
+    color: #333;
+  }
+  
+  .ls-minus-1px {
+    letter-spacing: -1px;
+  }
+  
+  .fancy-text-style-4 {
+    /* Add your fancy text style here */
+  }
+  
+  .mb-9 {
+    margin-bottom: 9px;
+  }
+  
+  .icon-with-text-style-01 {
+    /* Add icon with text styles here */
+  }
+  
+  .md-mb-30px {
+    margin-bottom: 30px;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
