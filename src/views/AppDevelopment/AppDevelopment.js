@@ -31,9 +31,10 @@ function AppDevelopment() {
       <div className="service d-flex p-5">
 
         <div className="text p-5 mt-3">
-          <p className=''> Our full-scale website development services guarantee that your online presence accurately represents your brand identity while effectively engaging your target audience.</p> 
-          <p>We specialize in creating websites that not only capture the essence of your brand but also attract and retain visitors.</p> 
-          <p>Our team ensures every aspect of your website is tailored to reflect your unique values and goals. With a focus on user experience and design, we build websites that are both visually appealing and highly functional.</p> Trust us to elevate your online presence and make a lasting impact on your audience.
+          <p className=''>
+Our comprehensive app development services ensure that your digital presence accurately represents your brand identity while effectively engaging your target audience.</p> 
+          <p>We specialize in developing apps that not only capture the essence of your brand but also attract and retain users.</p> 
+          <p>Our team ensures every aspect of your app is tailored to reflect your unique values and goals. With a focus on user experience and design, we build apps that are both visually appealing and highly functional.</p> Trust us to elevate your digital presence and make a lasting impact on your audience.
           </div>
           <img src={home} style={{}} className='' />
       </div>
