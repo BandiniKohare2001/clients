@@ -108,3 +108,11 @@
   max-width: 100%;
   height: auto;
 }
+.about-cards{
+  width: 65%;
+}
+@media (max-width: 768px) {
+  .about-cards{
+    width: 100%;
+  }
+}

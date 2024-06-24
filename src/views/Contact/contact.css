@@ -1,0 +1,40 @@
+/* General styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Image and text alignment */
+  .text-center h2 {
+    font-size: 2rem;
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+  }
+  
+  @media (max-width: 768px) {
+    .text-center h2 {
+      font-size: 1.5rem;
+    }
+    .container {
+      padding: 0 10px;
+    }
+    .pt-5 {
+      padding-top: 2rem !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .text-center h2 {
+      font-size: 1.25rem;
+    }
+    .container {
+      padding: 0 5px;
+    }
+    .pt-5 {
+      padding-top: 1rem !important;
+    }
+  }
+  

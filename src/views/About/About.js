@@ -42,8 +42,8 @@ function About() {
           <p className="mt-4 text-gray-600 text-start w-2/3 mx-auto mb-5">
           Our company Shree Krushna Technologies, established in 2024, is a leader in innovation, offering complete IT solutions for businesses of all sizes. Our expert team specializes in software development, web development, app development, digital marketing, graphics designing, and IT consulting. We help our clients stay ahead in the fast-changing digital world by providing top-quality and innovative solutions. Our commitment to excellence ensures that we meet the unique needs of every business we serve. We work closely with our clients to understand their goals and provide customized solutions that drive success. Whether it’s developing a new app, designing a stunning website, or creating effective digital marketing strategies, we are dedicated to delivering the best results. Our focus on quality and customer satisfaction has made us a trusted partner for businesses looking to thrive in today’s competitive market. With us, you can be assured of achieving your business goals with ease.
           </p>
-          <div className='d-flex mt-5'>
-          <div className="mt-10 flex flex-wrap justify-center me-5">
+          <div className='d-flex mt-5 flex-wrap' style={{ width:"100%"}}>
+          <div className="mt-10 flex flex-wrap justify-center about-cards">
             <div className="w-full md:w-1/3 px-4 py-3" style={{backgroundColor:"#ffe0b3"}}>
               <h3 className="text-2xl font-bold text-gray-800">Our Mission</h3>
               <p className="mt-2 text-gray-600">
@@ -56,7 +56,7 @@ function About() {
                 To be a global leader in IT services, recognized for our quality, integrity, and commitment to customer success.
               </p>
             </div>
-            <div className="w-full md:w-1/3 px-4 py-3" style={{backgroundColor:"#ebc6dd"}}  >
+            <div className="w-full md:w-1/3 px-4 py-3 mb-5 " style={{backgroundColor:"#ebc6dd"}}  >
               <h3 className="text-2xl font-bold text-gray-800">Our Values</h3>
               <ul className="mt-2 text-gray-600 list-disc list-inside">
                 <li>Innovation: Continuously pushing the boundaries of technology.</li>
@@ -67,7 +67,7 @@ function About() {
               </ul>
             </div>
           </div>
-            <div className='ms-4'>
+            <div className='ms-4 flex justify-center' style={{width:"30%"}} >
               <img src='https://img.freepik.com/premium-photo/young-colleagues-work-office-using-computers_926199-3998525.jpg?w=360' />
             </div>
           </div>

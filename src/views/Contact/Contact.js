@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
-
+import "./contact.css"
 function Contact() {
   return (
     <div>
@@ -16,12 +16,12 @@ function Contact() {
           backgroundSize: 'cover',
         }}
       >
-        <div className="container h-100 d-flex align-items-center justify-content-center ">
-          <div className="text-center ">
-            <h2 className="font-weight-bold text-light">
+        <div className="container h-100 d-flex align-items-center justify-content-center">
+          <div className="text-center text-light">
+            <h2 className="font-weight-bold">
               Do you need help? <br />
               <span className="text-highlight">
-                contact
+                Contact
                 <span className="bg-base-color opacity-30 h-2.5 d-block"></span>
               </span>{' '}
               with us!
@@ -38,9 +38,7 @@ function Contact() {
             </h2>
           </div>
         </div>
-        <div
-          className="container d-flex flex-column align-items-center"
-        >
+        <div className="container d-flex flex-column align-items-center">
           <div className="row d-flex justify-content-center">
             <div className="col-12 col-md-6 col-lg-3 my-5">
               <img
@@ -145,115 +143,114 @@ function Contact() {
               </p>
             </div>
             <form
-  action="email-templates/contact-form.php"
-  method="post"
-  className="text-start p-5 mx-auto"
-  style={{ maxWidth: '800px' }}
->
-  <div className="space-y-5">
-    <div className="flex flex-wrap -mx-2">
-      <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
-        <label
-          htmlFor="inputName"
-          className="fw-bold text-dark-gray mb-3"
-        >
-          Your name*
-        </label>
-        <input
-          id="inputName"
-          type="text"
-          name="name"
-          placeholder="What's your name?"
-          className="form-control w-full p-2 border border-gray-300 rounded"
-          required
-          style={{boxShadow:"0px 0px 7px 0.5px gray"}}
-        />
-      </div>
-      <div className="w-full md:w-1/2 px-2">
-        <label
-          htmlFor="inputPhone"
-          className="fw-bold text-dark-gray mb-3"
-        >
-          Your phone number*
-        </label>
-        <input
-          id="inputPhone"
-          type="tel"
-          name="phone"
-          placeholder="Enter your phone number"
-          className="form-control w-full p-2 border border-gray-300 rounded"
-          required
-          style={{boxShadow:"0px 0px 7px 0.5px gray"}}
-        />
-      </div>
-    </div>
-    <div className="flex flex-wrap -mx-2">
-      <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
-        <label
-          htmlFor="inputEmail"
-          className="fw-bold text-dark-gray my-3"
-        >
-          Your email address*
-        </label>
-        <input
-          id="inputEmail"
-          type="email"
-          name="email"
-          placeholder="Enter your email address"
-          className="form-control w-full p-2 border border-gray-300 rounded"
-          required
-          style={{boxShadow:"0px 0px 7px 0.5px gray"}}
-        />
-      </div>
-      <div className="w-full md:w-1/2 px-2">
-        <label
-          htmlFor="inputSubject"
-          className="fw-bold text-dark-gray mb-3"
-        >
-          Subject
-        </label>
-        <input
-          id="inputSubject"
-          type="text"
-          name="subject"
-          placeholder="Subject of your message"
-          style={{boxShadow:"0px 0px 7px 0.5px gray"}}
-          className="form-control w-full p-2 border border-gray-300 rounded"
-        />
-      </div>
-    </div>
-    <div className="px-2">
-      <label
-        htmlFor="inputMessage"
-        className="fw-bold text-dark-gray my-3"
-      >
-        Your message
-      </label>
-      <textarea
-        id="inputMessage"
-        name="comment"
-        placeholder="Type your message here"
-        rows="4"
-        style={{boxShadow:"0px 0px 7px 0.5px gray"}}
-        className="form-control w-full p-2 border border-gray-300 rounded"
-      ></textarea>
-    </div>
-    <div className="flex flex-col md:flex-row justify-between items-center px-2">
-      <p className="text-muted text-sm my-4 md:mb-0">
-        We value your privacy. Your information is safe with us and will never be
-        shared without your consent.
-      </p>
-      <div className="mt-9 flex justify-center space-x-4 ">
-            <Link to="/contact" className="px-5 btn btn-dark-gray shadow-lg hover:bg-orange-700 transition duration-300 flex items-center px-6 py-3 text-white">
-              <span className="mr-2">Send Message</span>
-              <i className="feather icon-feather-info"></i>
-            </Link></div>
-    </div>
-    <div className="form-results mt-3 hidden"></div>
-  </div>
-</form>
-
-
+              action="email-templates/contact-form.php"
+              method="post"
+              className="text-start p-5 mx-auto"
+              style={{ maxWidth: '800px' }}
+            >
+              <div className="space-y-5">
+                <div className="flex flex-wrap -mx-2">
+                  <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                    <label
+                      htmlFor="inputName"
+                      className="fw-bold text-dark-gray mb-3"
+                    >
+                      Your name*
+                    </label>
+                    <input
+                      id="inputName"
+                      type="text"
+                      name="name"
+                      placeholder="What's your name?"
+                      className="form-control w-full p-2 border border-gray-300 rounded"
+                      required
+                      style={{ boxShadow: '0px 0px 7px 0.5px gray' }}
+                    />
+                  </div>
+                  <div className="w-full md:w-1/2 px-2">
+                    <label
+                      htmlFor="inputPhone"
+                      className="fw-bold text-dark-gray mb-3"
+                    >
+                      Your phone number*
+                    </label>
+                    <input
+                      id="inputPhone"
+                      type="tel"
+                      name="phone"
+                      placeholder="Enter your phone number"
+                      className="form-control w-full p-2 border border-gray-300 rounded"
+                      required
+                      style={{ boxShadow: '0px 0px 7px 0.5px gray' }}
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-wrap -mx-2">
+                  <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
+                    <label
+                      htmlFor="inputEmail"
+                      className="fw-bold text-dark-gray my-3"
+                    >
+                      Your email address*
+                    </label>
+                    <input
+                      id="inputEmail"
+                      type="email"
+                      name="email"
+                      placeholder="Enter your email address"
+                      className="form-control w-full p-2 border border-gray-300 rounded"
+                      required
+                      style={{ boxShadow: '0px 0px 7px 0.5px gray' }}
+                    />
+                  </div>
+                  <div className="w-full md:w-1/2 px-2">
+                    <label
+                      htmlFor="inputSubject"
+                      className="fw-bold text-dark-gray mb-3"
+                    >
+                      Subject
+                    </label>
+                    <input
+                      id="inputSubject"
+                      type="text"
+                      name="subject"
+                      placeholder="Subject of your message"
+                      style={{ boxShadow: '0px 0px 7px 0.5px gray' }}
+                      className="form-control w-full p-2 border border-gray-300 rounded"
+                    />
+                  </div>
+                </div>
+                <div className="px-2">
+                  <label
+                    htmlFor="inputMessage"
+                    className="fw-bold text-dark-gray my-3"
+                  >
+                    Your message
+                  </label>
+                  <textarea
+                    id="inputMessage"
+                    name="comment"
+                    placeholder="Type your message here"
+                    rows="4"
+                    style={{ boxShadow: '0px 0px 7px 0.5px gray' }}
+                    className="form-control w-full p-2 border border-gray-300 rounded"
+                  ></textarea>
+                </div>
+                <div className="flex flex-col md:flex-row justify-between items-center px-2">
+                  <p className="text-muted text-sm my-4 md:mb-0">
+                    We value your privacy. Your information is safe with us and will never be
+                    shared without your consent.
+                  </p>
+                  <div className="mt-9 flex justify-center space-x-4">
+                    <Link to="/contact" className="px-5 btn btn-dark-gray shadow-lg hover:bg-orange-700 transition duration-300 flex items-center px-6 py-3 text-white">
+                      <span className="mr-2">Send Message</span>
+                      <i className="feather icon-feather-info"></i>
+                    </Link>
+                  </div>
+                </div>
+                <div className="form-results mt-3 hidden"></div>
+              </div>
+            </form>
           </div>
         </div>
       </section>

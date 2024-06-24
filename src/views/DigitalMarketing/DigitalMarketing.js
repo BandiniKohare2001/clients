@@ -1,8 +1,8 @@
-import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/Footer/Footer'
-import marketingGif from './marketingGif.gif'
-import './DigitalMarketing.css' 
+import React from 'react';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import marketingGif from './marketingGif.gif';
+import './DigitalMarketing.css';
 
 function DigitalMarketing() {
   const steps = [
@@ -61,11 +61,13 @@ function DigitalMarketing() {
         </div>
       </section>
       
-      <div className="service d-flex p-5">
-        <img src={marketingGif} style={{height: "400px"}} className='ps-5' alt="Marketing gif" />
-        <div className="text p-5 ms-5">
-          <p> Our digital marketing services ensure that your brand reaches its target audience effectively and efficiently.</p> 
-          <p>We specialize in creating and executing strategies that drive engagement and conversions.</p> 
+      <div className="service d-flex flex-wrap p-5">
+        <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+          <img src={marketingGif} className="marketing-gif" alt="Marketing gif" />
+        </div>
+        <div className="text p-5 ms-md-5 col-12 col-md-6">
+          <p>Our digital marketing services ensure that your brand reaches its target audience effectively and efficiently.</p>
+          <p>We specialize in creating and executing strategies that drive engagement and conversions.</p>
           <p>Our team works closely with you to understand your goals and develop tailored campaigns. With a focus on data-driven decision making, we optimize your digital presence for maximum impact.</p>
           <p>Trust us to elevate your brand in the digital landscape and achieve measurable results.</p>
         </div>
@@ -73,7 +75,7 @@ function DigitalMarketing() {
 
       <div className="process-section4 px-5">
         <h2 className="text-center">Our Marketing Process</h2>
-        <div className="process-steps">
+        <div className="process-steps d-flex flex-wrap justify-content-center">
           {steps.map((step, index) => (
             <div className="process-step" key={index}>
               <img src={step.icon} alt={step.title} className="process-icon" />
@@ -86,7 +88,7 @@ function DigitalMarketing() {
 
       <Footer />
     </div>
-  )
+  );
 }
 
 export default DigitalMarketing;
