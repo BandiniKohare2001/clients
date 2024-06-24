@@ -71,7 +71,7 @@ function DigitalMarketing() {
         </div>
       </div>
 
-      <div className="process-section">
+      <div className="process-section4 px-5">
         <h2 className="text-center">Our Marketing Process</h2>
         <div className="process-steps">
           {steps.map((step, index) => (

@@ -69,7 +69,7 @@ function WebDevelopment() {
         </div>
       </div>
 
-      <div className="process-section">
+      <div className="process-section2 px-5">
         <h2 className="text-center">Our Development Process</h2>
         <div className="process-steps">
           {steps.map((step, index) => (

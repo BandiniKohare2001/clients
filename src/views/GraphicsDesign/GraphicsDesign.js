@@ -71,7 +71,7 @@ function GraphicsDesign() {
         </div>
       </div>
 
-      <div className="process-section3">
+      <div className="process-section3 px-5">
         <h2 className="text-center">Our Design Process</h2>
         <div className="process-steps">
           {steps.map((step, index) => (

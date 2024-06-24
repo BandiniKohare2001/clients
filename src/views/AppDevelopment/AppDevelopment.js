@@ -71,7 +71,7 @@ function AppDevelopment() {
         <img src={home} className="home-image" alt="Home gif" />
       </div>
 
-      <div className="process-section2">
+      <div className="process-section px-5">
         <h2 className="text-center">Our Development Process</h2>
         <div className="process-steps">
           {steps.map((step, index) => (
