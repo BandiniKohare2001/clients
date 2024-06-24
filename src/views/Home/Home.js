@@ -1,6 +1,7 @@
 import React from 'react'
 
 import ithea from "./ithea.png"
+import poster from "./poster.png"
 import "./Home.css"
 import ServiceCards from '../../components/ServiceCard/ServicesCard'
 import Navbar from '../../components/Navbar/Navbar'
@@ -15,8 +16,10 @@ function Home() {
     
       <div>
       <section className="px-5 py-5 top-space-padding bg-gradient-very-light-gray overflow-hidden position-relative lg-pb-30px" style={{
-        // backgroundColor:"#ffcccc"
-        backgroundImage:"url('https://img.freepik.com/free-vector/pastel-gradient-blur-orange-background-vector_53876-174854.jpg?t=st=1716716962~exp=1716720562~hmac=efbb9d2cd40f05d54003c89c5f7b7f8c411480214b84dcf2cd5f5685f4ecdb0d&w=996')"
+        // backgroundColor:"#ffcccc" 
+        backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+        backgroundImage:"url('https://img.freepik.com/free-photo/young-man-indicating-up_23-2148320014.jpg?t=st=1719159779~exp=1719163379~hmac=943ce2e3be72551ba7028a88f08f040745f88df0e8768fac368da66543bbb113&w=740')"
 
       }}>
       <div className="container h-100">
@@ -28,8 +31,8 @@ function Home() {
               </div>
               <span className="fs-18 fw-500" data-fancy-text='{ "effect": "rotate", "string": ["Custom Solutions for Your IT Needs", "Cutting-edge Technology Implementation", "Experience Excellence in IT Services"], "speed": 50, "duration": 3500 }'></span>
             </div>
-            <h1 className="alt-font text-dark-gray ls-minus-2px mb-20" style={{fontWeight:"bold", fontSize:"60px"}}>Empowering IT Solutions<span className="text-highlight"><span className="bg-cabaret-red opacity-3 h-12px bottom-15px"></span></span></h1>
-            <div className="alt-font fw-500 fs-19 w-85 sm-w-100 mb-35px xs-mb-25px" style={{fontWeight:"400"}}>Enhance your business with our innovative IT services tailored to your needs.</div>
+            <h1 className="alt-font text-dark-gray ls-minus-2px mb-20" style={{fontWeight:"bold", fontSize:"60px", color:"white", textAlign:"start"}}>Empowering IT Solutions<span className="text-highlight"><span className="bg-cabaret-red opacity-3 h-12px bottom-15px"></span></span></h1>
+            <div className="alt-font fw-500 fs-19 w-85 sm-w-100 mb-35px xs-mb-25px" style={{fontWeight:"400"}}><p style={{color:"whitesmoke"}}>Enhance your business with our innovative IT services tailored to your needs.</p></div>
             <Link href="#" className="px-5 py-3 btn mt-3 btn-extra-large btn-dark-gray btn-hover-animation-switch btn-round-edge btn-box-shadow btn-icon-left me-25px"  style={{backgroundColor:"black", color:"white"}}>
               <span>
                 <span className="btn-text">Learn More</span>
@@ -38,8 +41,8 @@ function Home() {
               </span>
             </Link>
          
-            <div style={{marginTop: '-290px'}} >
-              <img src={ithea} alt="IT Tech Services" style={{height: '350px', width: '450px', marginLeft: '550px'}}/>
+            <div style={{marginTop: '-400px'}} >
+              <img src={ithea} alt="IT Tech Services" style={{ marginLeft: '560px'}}/>
             </div>
           </div>
         </div>
@@ -53,20 +56,30 @@ function Home() {
       <div className="container position-relative">
         <div className="row align-items-center mb-4 sm-mb-25px">
           <div className="col-xl-6 col-lg-6 text-center text-lg-start md-mb-30px" data-anime='{ "translate": [0, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <img src="https://img.freepik.com/free-photo/multi-ethnic-businesspeople-discussing-financial-company-solution-sitting-conference-table-meeting-room_482257-2174.jpg?t=st=1712947682~exp=1712951282~hmac=f9a71f2cce0801aef84d75f5386d251c90bcc3dc1c4da9d09505b0c462dd1f0c&w=360" style={{height: '550px', width: '400px', marginLeft: '50px'}} className="md-w-90 sm-w-100" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)" alt=""/>
+            <img src="https://img.freepik.com/free-photo/multi-ethnic-businesspeople-discussing-financial-company-solution-sitting-conference-table-meeting-room_482257-2174.jpg?t=st=1712947682~exp=1712951282~hmac=f9a71f2cce0801aef84d75f5386d251c90bcc3dc1c4da9d09505b0c462dd1f0c&w=360" style={{height: '700px', width:'80%', backgroundColor:"#ffe6e6", padding:"40px", border:"1px solid #ff9999"}} className="md-w-90 sm-w-100" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)" alt=""/>
           </div>
-          <div className=" col-xl-5 col-lg-6 offset-xl-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }' style={{width:"450px"}}>
+          <div className="mt-2 col-xl-5 col-lg-6 offset-xl-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }' style={{width:"400px" , marginLeft:"50px"}}>
             <div className=" px-4 bg-base-color fw-600 text-uppercase ps-20px pe-20px  border-radius-100px d-inline-block mb-25px mb-5 py-2" style={{color: 'white', backgroundColor: 'blue', borderRadius: '50px' , fontSize:"10px"}}>IT Tech Services</div>
             <h2 className="mb-3 fw-bold alt-font text-dark-gray ls-minus-1px w-95" style={{fontSize:"40px"}}>Elevate Your IT Infrastructure with Cutting-Edge Solutions<span className="text-highlight"><span className="bg-base-color opacity-3 h-10px bottom-10px"></span></span></h2>
             <p>Our IT tech services offer comprehensive solutions to enhance your organization's technological capabilities. From network security to software development, we've got you covered.</p>
             <div className="icon-with-text-style-08 mb-10px">
               <div className="feature-box feature-box-left-icon-middle overflow-hidden">
                 <div className="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-very-light-gray rounded-circle me-15px mt-1">
-                  <i className="fa-solid fa-check fs-14 text-success"></i><span className="text-dark-gray fw-500 ms-3">Cybersecurity Solutions</span>
+                  <i className="fa-solid fa-check fs-14 text-success"></i><span className="text-dark-gray fw-500 ms-3">App Development</span>
                 </div>
                
               </div>
             </div>
+            <div className="icon-with-text-style-08 mb-10px">
+              <div className="feature-box feature-box-left-icon-middle overflow-hidden">
+                <div className="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-very-light-gray rounded-circle me-15px mt-3">
+                  <i className="fa-solid fa-check fs-14 text-success"></i>
+                  <span className="text-dark-gray fw-500 ms-3">Web Development</span>
+                </div>
+               
+              </div>
+            </div>
+
             <div className="icon-with-text-style-08 mb-10px">
               <div className="feature-box feature-box-left-icon-middle overflow-hidden">
                 <div className="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-very-light-gray rounded-circle me-15px my-3">
@@ -76,6 +89,8 @@ function Home() {
                
               </div>
             </div>
+
+            
             <div className="icon-with-text-style-08 mb-10px">
               <div className="feature-box feature-box-left-icon-middle overflow-hidden">
                 <div className="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-very-light-gray rounded-circle me-15px ">
@@ -112,7 +127,7 @@ function Home() {
 
    
 
-  <section className="bg-light mt-5 py-5 pb-5">
+  {/* <section className="bg-light mt-5 py-5 pb-5">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 position-relative text-center text-lg-start">
@@ -135,7 +150,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     <section className="bg-very-light-gray p-0 my-5">
     <div className="container-fluid">

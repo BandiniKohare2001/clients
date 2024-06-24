@@ -6,7 +6,7 @@ const ServiceCards = () => {
 
     return (
         <div>
-            <h1 className='text-center mt-5 pt-5'>Services</h1>
+            <h1 className='text-center mt-5 pt-5'>Our Services</h1>
             <div className='d-flex containers mx-5'>
                 {
                     Config.Scards.map((serviceCard, index) => {

@@ -69,12 +69,12 @@ function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" className="dropdown-item">
+                    <Link to="/digitalmarketing" className="dropdown-item">
                       Digital Marketing
                     </Link>
                   </li>
                   <li>
-                    <Link to="#" className="dropdown-item">
+                    <Link to="/graphicsdesigning" className="dropdown-item">
                       Graphics Designing
                     </Link>
                   </li>

@@ -11,6 +11,8 @@ import Contact from './views/Contact/Contact';
 import AppDevelopment from './views/AppDevelopment/AppDevelopment';
 import WebDevelopment from './views/WebDevelopment/WebDevelopment';
 import TraningAndProgram from './views/TraningAndProgram/TraningAndProgram';
+import GraphicsDesign from './views/GraphicsDesign/GraphicsDesign';
+import DigitalMarketing from './views/DigitalMarketing/DigitalMarketing';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
   {
     path: "/tandp",
     element: <TraningAndProgram/>
+  },
+  {
+    path: "/graphicsdesigning",
+    element: <GraphicsDesign/>
+  },
+  {
+    path: "/digitalmarketing",
+    element: <DigitalMarketing/>
   },
 ]);
 

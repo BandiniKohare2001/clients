@@ -140,7 +140,7 @@ function Contact() {
                 Contact Us
               </h1>
               <p className="text-muted">
-                Have questions or want to know more about our hostel management
+                Have questions or want to know more about our IT Solutions and management
                 system? Reach out to us!
               </p>
             </div>
