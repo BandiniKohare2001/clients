@@ -9,32 +9,32 @@ function DigitalMarketing() {
     {
       title: '1. Market Research',
       description: 'Analyzing the market to understand the target audience and competition.',
-      icon: 'https://img.icons8.com/ios-filled/50/FFA500/market.png'
+      icon: 'https://img.icons8.com/?size=100&id=123781&format=png&color=FAB005'
     },
     {
       title: '2. Strategy Development',
       description: 'Creating a comprehensive digital marketing strategy.',
-      icon: 'https://img.icons8.com/ios-filled/50/FFA500/strategy.png'
+      icon: 'https://img.icons8.com/?size=100&id=101365&format=png&color=FAB005'
     },
     {
       title: '3. Content Creation',
       description: 'Developing engaging content for various digital channels.',
-      icon: 'https://img.icons8.com/ios-filled/50/FFA500/content.png'
+      icon: 'https://img.icons8.com/?size=100&id=3G2H3DDWhJ3e&format=png&color=FAB005'
     },
     {
       title: '4. Campaign Execution',
       description: 'Implementing the strategy through targeted campaigns.',
-      icon: 'https://img.icons8.com/ios-filled/50/FFA500/campaign.png'
+      icon: 'https://img.icons8.com/?size=100&id=Fl7RH7IeVzzg&format=png&color=FAB005'
     },
     {
       title: '5. Monitoring & Optimization',
       description: 'Tracking performance and optimizing campaigns for better results.',
-      icon: 'https://img.icons8.com/ios-filled/50/FFA500/monitor.png'
+      icon: 'https://img.icons8.com/?size=100&id=PO8vxejgExcL&format=png&color=FAB005'
     },
     {
       title: '6. Reporting',
       description: 'Providing detailed reports on campaign performance and insights.',
-      icon: 'https://img.icons8.com/ios-filled/50/FFA500/report.png'
+      icon: 'https://img.icons8.com/?size=100&id=Ob5vVT7sArAf&format=png&color=FAB005'
     }
   ];
 
@@ -66,6 +66,7 @@ function DigitalMarketing() {
           <img src={marketingGif} className="marketing-gif" alt="Marketing gif" />
         </div>
         <div className="text p-5 ms-md-5 col-12 col-md-6">
+        <h3 className="mb-4">Digital Marketing</h3>
           <p>Our digital marketing services ensure that your brand reaches its target audience effectively and efficiently.</p>
           <p>We specialize in creating and executing strategies that drive engagement and conversions.</p>
           <p>Our team works closely with you to understand your goals and develop tailored campaigns. With a focus on data-driven decision making, we optimize your digital presence for maximum impact.</p>

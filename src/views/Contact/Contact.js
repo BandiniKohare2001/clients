@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
+import contact from "./contactimg.png"
 import "./contact.css"
 function Contact() {
   return (
@@ -11,21 +12,21 @@ function Contact() {
         className="bg-cover bg-center"
         style={{
           background:
-            "url('https://img.freepik.com/premium-photo/businessman-hand-holding-pressing-icon-phone-mail-telephone-message-post-person-user-customer-service-call-center-contact-us-concept-banner-copy-space-contact-methods_150455-11622.jpg?w=1060')",
+            "url('https://img.freepik.com/free-vector/gradient-christmas-technology-background_23-2149758674.jpg?t=st=1719296026~exp=1719299626~hmac=3c98198b060b805cff776ad3c28593662ed8b0c49eb7a1d9a758ed89597b71ae&w=826')",
           height: '450px',
           backgroundSize: 'cover',
         }}
       >
         <div className="container h-100 d-flex align-items-center justify-content-center">
           <div className="text-center text-light">
-            <h2 className="font-weight-bold">
+            <h1 className="font-weight-bold">
               Do you need help? <br />
               <span className="text-highlight">
                 Contact
                 <span className="bg-base-color opacity-30 h-2.5 d-block"></span>
               </span>{' '}
               with us!
-            </h2>
+            </h1>
           </div>
         </div>
       </section>
@@ -38,7 +39,7 @@ function Contact() {
             </h2>
           </div>
         </div>
-        <div className="container d-flex flex-column align-items-center">
+        <div className="container d-flex flex-column justify-content-center align-items-center">
           <div className="row d-flex justify-content-center">
             <div className="col-12 col-md-6 col-lg-3 my-5">
               <img
@@ -51,20 +52,17 @@ function Contact() {
               <div className="pb-2 mb-4 border-bottom border-dark">
                 <i className="feather icon-feather-mail"></i> Send a message
               </div>
-              <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
-              <br />
-              <a href="mailto:sales@yourdomain.com">sales@yourdomain.com</a>
+              <a href="mailto:skttechnologies@gmail.com">skttechnologies@gmail.com</a>
+             
             </div>
             <div className="col-12 col-md-6 col-lg-3 my-5">
               <div className="pb-2 mb-4 border-bottom border-dark">
                 <i className="feather icon-feather-phone"></i> Call us directly
               </div>
               <a href="tel:9116 150 431" className="d-block">
-                1-800-222-000
+                +91  8459562384
               </a>
-              <a href="tel:1800222002" className="d-block">
-                1-800-222-002
-              </a>
+             
             </div>
             <div className="col-12 col-md-6 col-lg-3 my-5">
               <div className="d-flex justify-content-center">
@@ -131,29 +129,33 @@ function Contact() {
       </section>
 
       <section className="p-5">
-        <div className="container pt-16">
-          <div className="bg-white p-8 rounded-lg shadow-lg">
-            <div className="text-center mb-8 pt-5">
+        <div className=" container1 pt-16">
+        <div className="text-center mb-8 pt-4">
               <h1 className="font-weight-bold text-dark-gray mb-2">
                 Contact Us
               </h1>
-              <p className="text-muted">
+              <p className="text-muted px-5">
                 Have questions or want to know more about our IT Solutions and management
                 system? Reach out to us!
               </p>
             </div>
+          <div className="contact-container bg-white  rounded-lg shadow-lg con-contact">
+         
+            
+            <div>
             <form
               action="email-templates/contact-form.php"
               method="post"
-              className="text-start p-5 mx-auto"
-              style={{ maxWidth: '800px' }}
+              className="py-5 text-start px-5 mx-auto"
+              style={{ maxWidth: '600px' }}
             >
+              
               <div className="space-y-5">
                 <div className="flex flex-wrap -mx-2">
                   <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
                     <label
                       htmlFor="inputName"
-                      className="fw-bold text-dark-gray mb-3"
+                      className="fw-bold text-dark-gray mb-1"
                     >
                       Your name*
                     </label>
@@ -162,7 +164,7 @@ function Contact() {
                       type="text"
                       name="name"
                       placeholder="What's your name?"
-                      className="form-control w-full p-2 border border-gray-300 rounded"
+                      className="form-control w-full p-2 border border-gray-100 rounded"
                       required
                       style={{ boxShadow: '0px 0px 7px 0.5px gray' }}
                     />
@@ -170,7 +172,7 @@ function Contact() {
                   <div className="w-full md:w-1/2 px-2">
                     <label
                       htmlFor="inputPhone"
-                      className="fw-bold text-dark-gray mb-3"
+                      className="fw-bold text-dark-gray mb-1"
                     >
                       Your phone number*
                     </label>
@@ -189,7 +191,7 @@ function Contact() {
                   <div className="w-full md:w-1/2 px-2 mb-4 md:mb-0">
                     <label
                       htmlFor="inputEmail"
-                      className="fw-bold text-dark-gray my-3"
+                      className="fw-bold text-dark-gray mb-1 mt-3"
                     >
                       Your email address*
                     </label>
@@ -206,7 +208,7 @@ function Contact() {
                   <div className="w-full md:w-1/2 px-2">
                     <label
                       htmlFor="inputSubject"
-                      className="fw-bold text-dark-gray mb-3"
+                      className="fw-bold text-dark-gray mb-1"
                     >
                       Subject
                     </label>
@@ -223,7 +225,7 @@ function Contact() {
                 <div className="px-2">
                   <label
                     htmlFor="inputMessage"
-                    className="fw-bold text-dark-gray my-3"
+                    className="fw-bold text-dark-gray mb-1 mt-3"
                   >
                     Your message
                   </label>
@@ -251,6 +253,10 @@ function Contact() {
                 <div className="form-results mt-3 hidden"></div>
               </div>
             </form>
+            </div>
+            <div className='mt-5 pt-5 contact-img-div'>
+              <img src={contact} style={{width:"550px"}} />
+            </div>
           </div>
         </div>
       </section>

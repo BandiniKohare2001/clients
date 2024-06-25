@@ -34,7 +34,7 @@ function GraphicsDesign() {
     {
       title: '6. Final Delivery',
       description: 'Delivering the final design files.',
-      icon: 'https://img.icons8.com/ios-filled/50/FFA500/delivery.png'
+      icon: 'https://img.icons8.com/?size=100&id=HUXMw5lIlp4U&format=png&color=FAB005'
     }
   ];
 
@@ -65,6 +65,7 @@ function GraphicsDesign() {
           <img src={designGif} className="design-gif" alt="Design gif" />
         </div>
         <div className="text p-5 col-12 col-md-6">
+        <h3 className="mb-4">Graphics Designing</h3>
           <p>Our graphics designing services ensure that your visual content stands out and accurately represents your brand identity.</p>
           <p>We specialize in creating visually stunning designs that attract and engage your target audience.</p>
           <p>Our team works closely with you to ensure that every design element reflects your unique values and goals. With a focus on creativity and functionality, we deliver graphics that are both beautiful and effective.</p>

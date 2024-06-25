@@ -44,6 +44,7 @@ h1 {
 
 .cardstap p {
   padding: 0 15px 20px;
+  text-align: start;
 }
 
 .cardstap:hover {

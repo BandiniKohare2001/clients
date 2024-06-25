@@ -56,7 +56,8 @@ function AppDevelopment() {
       </section>
 
       <div className="service d-flex p-5">
-        <div className="text p-5 mt-3">
+        <div className="text p-5 mb-5">
+        <h3 className="mb-3">App Development</h3>
           <p>
             Our comprehensive app development services ensure that your digital presence accurately represents your brand identity while effectively engaging your target audience.
           </p>

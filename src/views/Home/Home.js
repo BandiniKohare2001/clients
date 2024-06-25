@@ -19,7 +19,7 @@ function Home() {
         // backgroundColor:"#ffcccc" 
         backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
-        backgroundImage:"url('https://img.freepik.com/free-photo/young-man-indicating-up_23-2148320014.jpg?t=st=1719159779~exp=1719163379~hmac=943ce2e3be72551ba7028a88f08f040745f88df0e8768fac368da66543bbb113&w=740')"
+        backgroundImage:"url('https://t4.ftcdn.net/jpg/02/32/92/55/240_F_232925587_st4gM8b3TJHtjjddCIUNyVyFJmZqMmn4.jpg')"
 
       }}>
       <div className=" container hero-section h-100">
@@ -31,7 +31,7 @@ function Home() {
               </div>
               <span className="fs-18 fw-500" data-fancy-text='{ "effect": "rotate", "string": ["Custom Solutions for Your IT Needs", "Cutting-edge Technology Implementation", "Experience Excellence in IT Services"], "speed": 50, "duration": 3500 }'></span>
             </div>
-            <h1 className="alt-font text-dark-gray ls-minus-2px mb-20" style={{fontWeight:"bold", fontSize:"60px", color:"white", textAlign:"start"}}>Empowering IT Solutions<span className="text-highlight"><span className="bg-cabaret-red opacity-3 h-12px bottom-15px"></span></span></h1>
+            <h1 className="mt-5 alt-font text-dark-gray ls-minus-2px mb-20" style={{fontWeight:"bold", fontSize:"60px", color:"white", textAlign:"start"}}>Empowering IT Solutions<span className="text-highlight"><span className="bg-cabaret-red opacity-3 h-12px bottom-15px"></span></span></h1>
             <div className=" alt-font fw-500 fs-19 w-85 sm-w-100 mb-35px xs-mb-25px" style={{fontWeight:"400"}}><p style={{color:"whitesmoke"}}>Enhance your business with our innovative IT services tailored to your needs.</p></div>
             <Link to="/about" >
               <div className="btn-dark-gray1 px-5 py-3 btn mt-3 btn-extra-large  btn-hover-animation-switch btn-round-edge btn-box-shadow btn-icon-left me-25px">
@@ -45,7 +45,7 @@ function Home() {
           </div>
           
         </div>
-        <div className='500px ms-5 '><img className='hero-section-img ms-5' src={ithea} alt="IT Tech Services" style={{height:"500px" , width:"100%", marginTop:"-50px"}}/></div>
+        <div className='500px ms-5 '><img className='hero-section-img ms-5' src={ithea} alt="IT Tech Services" style={{height:"500px" , width:"100%", marginTop:"0"}}/></div>
       </div>
     </section>
 
