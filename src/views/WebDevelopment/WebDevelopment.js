@@ -60,7 +60,7 @@ function WebDevelopment() {
       </section>
       
       <div className="service d-flex p-5">
-        <img src={imgs} style={{height: "600px"}} className='ps-5' alt="Web development gif" />
+        <img src={imgs} style={{height: "600px"}} className=' web-img' alt="Web development gif" />
         <div className="text p-5"> <h3 className='mb-5 fb-bold'>Web Development</h3>
           <p> Our full-scale website development services guarantee that your online presence accurately represents your brand identity while effectively engaging your target audience.</p> 
           <p>We specialize in creating websites that not only capture the essence of your brand but also attract and retain visitors.</p> 

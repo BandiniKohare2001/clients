@@ -72,5 +72,9 @@ body, html {
       flex-direction: column;
       align-items: center;
     }
+    .web-img{
+     width: 100%;
+      height: 370px !important;
+    }
   }
   

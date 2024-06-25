@@ -76,19 +76,19 @@ function TrainingAndProgram() {
         </div>
       </section>
 
-      <div className='d-flex mt-5 flex-wrap' style={{ width: "100%", backgroundColor: "#ffffe6" }}>
-        <div className='mx-4 flex justify-center' style={{ width: "30%" }}>
+      <div className='d-flex mt-5 flex-wrap' style={{ width: "100%", backgroundColor: "#ffffe6",justifyContent:"center" }}>
+        <div className='me-4 flex justify-center' style={{ width: "30%" }}>
           <img src={tapimg} style={{
             filter: "drop-shadow(0 0 10px black)",
-            maxWidth: "500px",
-            height: "500px"
+
+            height: "450px"
           }} />
         </div>
 
         <div className="mt-10 flex flex-wrap about-cards">
           <div className="ms-5 w-full md:w-1/3 px-4 py-3" style={{ backgroundColor: "" }}>
-            <h3 className="text-2xl font-bold text-gray-800 my-5">Training and Programs</h3>
-            <p className="mt-2 text-gray-600" style={{ width: "80%" }}>
+            <h2 className="text-2xl font-bold text-gray-800 my-5">Training and Programs</h2>
+            <p className="mt-2 text-gray-600" style={{ width: "80%", fontSize:"20px" }}>
               SKT Technologies Training Program is designed to equip professionals and aspiring technologists with the skills and knowledge required to excel in the rapidly evolving field of information technology. Our comprehensive programs offer hands-on training, expert instruction, and real-world applications to ensure participants are well-prepared for the challenges of the tech industry.
             </p>
           </div>
