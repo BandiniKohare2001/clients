@@ -39,7 +39,7 @@ function About() {
       <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mt-5">About Us</h2>
-          <p className="mt-4 text-gray-600 text-start w-2/3 mx-auto mb-5">
+          <p className="mt-4 text-gray-600 text-start w-2/3 mx-auto mb-5 p-2">
           Our company Shree Krushna Technologies, established in 2024, is a leader in innovation, offering complete IT solutions for businesses of all sizes. Our expert team specializes in software development, web development, app development, digital marketing, graphics designing, and IT consulting. We help our clients stay ahead in the fast-changing digital world by providing top-quality and innovative solutions. Our commitment to excellence ensures that we meet the unique needs of every business we serve. We work closely with our clients to understand their goals and provide customized solutions that drive success. Whether it’s developing a new app, designing a stunning website, or creating effective digital marketing strategies, we are dedicated to delivering the best results. Our focus on quality and customer satisfaction has made us a trusted partner for businesses looking to thrive in today’s competitive market. With us, you can be assured of achieving your business goals with ease.
           </p>
           <div className='d-flex mt-5 flex-wrap' style={{ width:"100%"}}>

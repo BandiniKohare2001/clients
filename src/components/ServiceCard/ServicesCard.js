@@ -13,7 +13,7 @@ const ServiceCards = () => {
 
                     return (
                         <div className='maincar-container my-4 ' key={index}>
-                            <div className="card card-contain bg-gradient-very-ghost-white">
+                            <div className="card card-contain bg-gradient-very-ghost-white pb-4">
                                 <img src={img} className="card-img-top" alt={title} />
                                 <div className='text-con'>
                                     <h3 className="card-title">{title}</h3>
