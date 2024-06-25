@@ -1,20 +1,39 @@
-.card-img-top{
-height: 290px;
-padding: 20px;
-width: 400px;
-}
-.card-contain{
-    height: 500px;
-    border: none;
-    width: 400px;
-    background-color: #f2edfe;
-}
-.containers{
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 30px;
+.card-img-top {
+    height: 290px;
+    padding: 20px;
+    width: 100%;
 }
 
-.text-con{
+.card-contain {
+    height: 500px;
+    border: none;
+    width: 100%;
+    background-color: #f2edfe;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.text-con {
     padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 200px;
+    }
+
+    .card-contain {
+        height: auto;
+    }
+
+    .text-con {
+        padding: 10px;
+    }
 }
