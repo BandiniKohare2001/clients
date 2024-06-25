@@ -4,7 +4,13 @@ body, html {
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-
+.div-tap-row{
+  display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+   
+}
 .content1 {
   padding: 20px;
   max-width: 1200px;
@@ -50,10 +56,18 @@ h1 {
 .cardstap:hover {
   transform: translateY(-5px);
 }
+.tap-cards{
+  width: 50%;
+}
 
 /* Responsive Styles */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .card-containertap {
     grid-template-columns: 1fr;
+  }
+  .img-tution{
+    margin-left: -200px;
+    width: 50%;
+    
   }
 }
