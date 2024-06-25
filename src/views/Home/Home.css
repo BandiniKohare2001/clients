@@ -48,3 +48,20 @@
     background-color: orange;
   }
   
+@media (max-width: 768px) {
+  .text-highlight .bg-primary {
+      height: 5px;
+  }
+
+  .alt-font {
+      font-size: 1rem;
+  }
+  .hea-home{
+    margin-left: -80px;
+    width: 100%;
+  }
+
+  .top-space-padding {
+      padding-top: 3rem;
+  }
+}

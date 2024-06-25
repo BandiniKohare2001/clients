@@ -7,12 +7,12 @@ const ServiceCards = () => {
     return (
         <div>
             <h1 className='text-center mt-5 pt-5'>Our Services</h1>
-            <div className='containers'>
+            <div className='containers mx-3'>
                 {Config.Scards.map((serviceCard, index) => {
                     const { title, img, description, link } = serviceCard;
 
                     return (
-                        <div className='maincar-container my-4' key={index}>
+                        <div className='maincar-container my-4 ' key={index}>
                             <div className="card card-contain bg-gradient-very-ghost-white">
                                 <img src={img} className="card-img-top" alt={title} />
                                 <div className='text-con'>

@@ -22,9 +22,9 @@ function Home() {
         backgroundImage:"url('https://img.freepik.com/free-photo/young-man-indicating-up_23-2148320014.jpg?t=st=1719159779~exp=1719163379~hmac=943ce2e3be72551ba7028a88f08f040745f88df0e8768fac368da66543bbb113&w=740')"
 
       }}>
-      <div className="container h-100">
-        <div className="row align-items-center h-100 md-mt-50px">
-          <div className="ms-5 col-xl-6 col-lg-6 mb-9 position-relative z-index-1" style={{width:"500px"}} data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+      <div className="  d-flex flex-warp container h-100">
+        <div className="hea-home row align-items-center h-100 md-mt-50px">
+          <div className=" ms-5 col-xl-6 col-lg-6 mb-9 position-relative z-index-1" style={{width:"500px"}} data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <div className="d-flex align-items-start align-items-sm-center alt-font mb-30px mt-5 ">
               <div className="flex-shrink-0 bg-cabaret-red fw-600 text-white text-uppercase ps-20px pe-20px fs-7  border-radius-100px">
                 <span style={{color: 'white', backgroundColor: 'green', borderRadius: '50px', fontSize:"10px"}} className='px-4 py-2'>IT Tech Services</span>
@@ -41,11 +41,13 @@ function Home() {
               </span>
             </Link>
          
-            <div style={{marginTop: '-400px'}} >
+            {/* <div style={{marginTop: '-400px'}} >
               <img src={ithea} alt="IT Tech Services" style={{ marginLeft: '560px'}}/>
-            </div>
+            </div> */}
           </div>
+          
         </div>
+        <img className='ms-5' src={ithea} alt="IT Tech Services" style={{height:"500px" , width:"700px", marginTop:"-60px"}}/>
       </div>
     </section>
 
