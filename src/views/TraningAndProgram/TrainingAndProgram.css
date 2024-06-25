@@ -1,13 +1,9 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
+
 .div-tap-row{
   display: flex !important;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
     padding: 20px;
    
 }
@@ -61,13 +57,16 @@ h1 {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .card-containertap {
     grid-template-columns: 1fr;
   }
   .img-tution{
-    margin-left: -200px;
+    /* margin-left: -190px;
     width: 50%;
-    
+     */
+  }
+  .tap-cards{
+    width: 100%;
   }
 }

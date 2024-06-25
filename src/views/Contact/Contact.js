@@ -254,8 +254,8 @@ function Contact() {
               </div>
             </form>
             </div>
-            <div className='mt-5 pt-5 contact-img-div'>
-              <img src={contact} style={{width:"550px"}} />
+            <div className='mt-5 contact-img-div'>
+              <img src={contact} style={{width:"550px"}} className='contai-img' />
             </div>
           </div>
         </div>

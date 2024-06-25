@@ -36,6 +36,11 @@
     .pt-5 {
       padding-top: 2rem !important;
     }
+    .contai-img{
+      width: 400px !important;
+      padding: 10px;
+    
+    }
   }
   
   @media (max-width: 576px) {
