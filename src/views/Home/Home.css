@@ -40,17 +40,30 @@
   .rounded-pill {
     border-radius: 50px;
   }
-  .btn-dark-gray {
-    background-color: #333;
+  .btn-dark-gray1 {
+    background-color:black;
+    color: white;
   }
   
-  .btn-dark-gray:hover {
+  .btn-dark-gray1:hover {
     background-color: orange;
+    color: white;
+  }
+  .hero-section{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
 @media (max-width: 768px) {
   .text-highlight .bg-primary {
       height: 5px;
+  }
+  .div-evaluate-service{
+    width: 100%;
+  }
+  .hero-section-img{
+display: none;
   }
 
   .alt-font {
