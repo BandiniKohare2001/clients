@@ -37,7 +37,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="list-inline-item ms-4">
-                <a className="text-dark" href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer">
+                <a className="text-dark" href="http://www.dribbble.om" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-dribbble"></i>
                 </a>
               </li>
